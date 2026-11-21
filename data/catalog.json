@@ -1,0 +1,1246 @@
+{
+  "technologies": [
+    {
+      "id": "transformers",
+      "name": "Transformers",
+      "company": "Hugging Face",
+      "category": "Machine Learning",
+      "summary": "Run pretrained models for text, images, and audio through a shared Python interface.",
+      "description": "Run pretrained models for text, images, and audio through a shared Python interface. Researchers can evaluate a new model without rewriting the entire loading and inference pipeline.",
+      "why": "Researchers can evaluate a new model without rewriting the entire loading and inference pipeline.",
+      "how": "A tokenizer or processor prepares the input. A compatible model reads it and returns tokens, labels, or embeddings.",
+      "difference": "Model definitions and preprocessing live in one library across many model families.",
+      "audience": "Engineers evaluating models and researchers reproducing published results.",
+      "limitations": "Hardware requirements, licenses, and language coverage depend on the checkpoint.",
+      "features": [
+        "Pretrained model loading",
+        "Text, image, and audio pipelines",
+        "Training and inference"
+      ],
+      "capabilities": [
+        "machine learning",
+        "train model",
+        "classify text",
+        "embeddings",
+        "model evaluation",
+        "python"
+      ],
+      "pricing": "The Apache-2.0 library is free. Compute and hosted inference can cost extra.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/huggingface/transformers",
+      "docs": "https://huggingface.co/docs/transformers",
+      "sources": [
+        {
+          "title": "v5.24.0 release notes",
+          "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://huggingface.co/docs/transformers"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/huggingface/transformers"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-21",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "v5.24.0",
+      "changes": [
+        "Version 5.24 adds support for Inkling 2 Mini, a model that accepts text and image inputs."
+      ],
+      "score": 9,
+      "rationale": "A shared interface makes a newly supported model easier to evaluate in existing research workflows.",
+      "mark": "huggingface"
+    },
+    {
+      "id": "codex",
+      "name": "Codex CLI",
+      "company": "OpenAI",
+      "category": "Coding Agents",
+      "summary": "Work on a codebase from the terminal with an assistant that can edit files and run commands.",
+      "description": "Work on a codebase from the terminal with an assistant that can edit files and run commands. It brings code changes, review, and local test runs into the same conversation.",
+      "why": "It brings code changes, review, and local test runs into the same conversation.",
+      "how": "Codex reads the chosen workspace, proposes or applies changes, and can run commands under the configured permissions.",
+      "difference": "A terminal workspace keeps the conversation alongside file previews and command results.",
+      "audience": "Developers who want a coding assistant inside a repository.",
+      "limitations": "Review changes before merging. Model availability and usage limits depend on the account or provider.",
+      "features": [
+        "Repository-aware editing",
+        "Local command execution",
+        "Interactive terminal workspace"
+      ],
+      "capabilities": [
+        "coding assistant",
+        "write code",
+        "code review",
+        "terminal",
+        "fix bugs",
+        "run tests",
+        "programming"
+      ],
+      "pricing": "The CLI source is Apache-2.0. Hosted models use plan allowances or separately billed API credits.",
+      "priceClass": "Freemium",
+      "free": true,
+      "api": null,
+      "open": true,
+      "website": "https://github.com/openai/codex",
+      "docs": "https://developers.openai.com/codex/cli/",
+      "sources": [
+        {
+          "title": "0.171.0 release notes",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0"
+        },
+        {
+          "title": "Plan and usage details",
+          "url": "https://learn.chatgpt.com/docs/pricing"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://developers.openai.com/codex/cli/"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/openai/codex"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-20",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "0.171.0",
+      "changes": [
+        "The workspace view is enabled by default and includes searchable document previews.",
+        "The prompt composer adds configurable undo and redo shortcuts."
+      ],
+      "score": 8,
+      "rationale": "Keeping command output and diffs together makes repository changes easier to inspect.",
+      "mark": "openai"
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "company": "Google",
+      "category": "Coding Agents",
+      "summary": "Use Gemini to explore a repository, explain code, and make changes from the terminal.",
+      "description": "Use Gemini to explore a repository, explain code, and make changes from the terminal. Developers can ask questions about a project in the same directory where they build and test it.",
+      "why": "Developers can ask questions about a project in the same directory where they build and test it.",
+      "how": "A terminal client sends the prompt and selected context to Gemini and can use local tools.",
+      "difference": "Google supports several sign-in methods, with published quotas for individual use.",
+      "audience": "Developers seeking a terminal coding assistant with a documented free tier.",
+      "limitations": "Hosted access needs a network connection. Quotas vary with sign-in method and plan.",
+      "features": [
+        "Terminal chat",
+        "Codebase exploration",
+        "Local tool integration"
+      ],
+      "capabilities": [
+        "coding assistant",
+        "write code",
+        "programming",
+        "terminal",
+        "explain code",
+        "developer tool"
+      ],
+      "pricing": "Google documents an individual free tier and paid usage options. Daily limits depend on authentication.",
+      "priceClass": "Free Tier",
+      "free": true,
+      "api": null,
+      "open": true,
+      "website": "https://github.com/google-gemini/gemini-cli",
+      "docs": "https://geminicli.com/docs/",
+      "sources": [
+        {
+          "title": "v0.70.0 release notes",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0"
+        },
+        {
+          "title": "Quotas and pricing",
+          "url": "https://geminicli.com/docs/resources/quota-and-pricing/"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://geminicli.com/docs/"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/google-gemini/gemini-cli"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-19",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "v0.70.0",
+      "changes": [],
+      "score": 8,
+      "rationale": "A documented free tier makes repository-aware coding assistance accessible to individual developers.",
+      "mark": "google"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "company": "Comfy Org",
+      "category": "Image Generation",
+      "summary": "Build a visual workflow for generating and editing images with diffusion models.",
+      "description": "Build a visual workflow for generating and editing images with diffusion models. Creators can inspect each generation step and reuse a working setup.",
+      "why": "Creators can inspect each generation step and reuse a working setup.",
+      "how": "Connect nodes for model loading, text prompts, sampling, and image output, then execute the graph.",
+      "difference": "The saved graph records the steps of an image-generation workflow.",
+      "audience": "Creators building reusable image pipelines and developers integrating those workflows.",
+      "limitations": "Local generation needs suitable hardware and model files. Partner nodes can incur charges.",
+      "features": [
+        "Node-based editor",
+        "Reusable workflows",
+        "Local inference"
+      ],
+      "capabilities": [
+        "generate images",
+        "image generation",
+        "image editing",
+        "visual design",
+        "text to image",
+        "workflow"
+      ],
+      "pricing": "ComfyUI runs locally without a software fee. Comfy Cloud and partner-node usage have separate charges.",
+      "priceClass": "Freemium",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/Comfy-Org/ComfyUI",
+      "docs": "https://docs.comfy.org/",
+      "sources": [
+        {
+          "title": "v0.46.0 release notes",
+          "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0"
+        },
+        {
+          "title": "Cloud and desktop pricing",
+          "url": "https://comfy.org/pricing"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://docs.comfy.org/"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/Comfy-Org/ComfyUI"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-18",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "v0.46.0",
+      "changes": [
+        "Version 0.46 adds LTX reframe and upscale partner nodes and a MiniMax H3 image node."
+      ],
+      "score": 8,
+      "rationale": "Visual graphs let creative teams share the actual processing steps behind an output.",
+      "mark": "comfy"
+    },
+    {
+      "id": "uv",
+      "name": "uv",
+      "company": "Astral",
+      "category": "Developer Tools",
+      "summary": "Install Python packages, manage environments, and lock project dependencies with one tool.",
+      "description": "Install Python packages, manage environments, and lock project dependencies with one tool. It reduces the number of separate commands needed to bring a Python project onto another machine.",
+      "why": "It reduces the number of separate commands needed to bring a Python project onto another machine.",
+      "how": "The command-line tool resolves dependencies, writes a lockfile, and synchronizes a project environment.",
+      "difference": "Its project, environment, and Python version management are packaged together.",
+      "audience": "Python developers and teams maintaining repeatable builds.",
+      "limitations": "A lockfile cannot guarantee that every native dependency is available on a target platform.",
+      "features": [
+        "Dependency resolution",
+        "Project lockfiles",
+        "Python version management"
+      ],
+      "capabilities": [
+        "package management",
+        "python environment",
+        "developer tool",
+        "dependency management",
+        "lockfile"
+      ],
+      "pricing": "The local tool has no software fee.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": null,
+      "open": true,
+      "website": "https://github.com/astral-sh/uv",
+      "docs": "https://docs.astral.sh/uv/",
+      "sources": [
+        {
+          "title": "0.13.9 release notes",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.9"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://docs.astral.sh/uv/"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/astral-sh/uv"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-17",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "0.13.9",
+      "changes": [
+        "Version 0.13.9 reduces repeated environment-marker conditions in lockfiles."
+      ],
+      "score": 7,
+      "rationale": "Small dependency-management improvements affect routine setup, testing, and deployment.",
+      "mark": "astral"
+    },
+    {
+      "id": "vllm",
+      "name": "vLLM",
+      "company": "vLLM Project",
+      "category": "APIs and Infrastructure",
+      "summary": "Serve language models through a high-throughput inference engine and an HTTP API.",
+      "description": "Serve language models through a high-throughput inference engine and an HTTP API. Teams can run their chosen model behind a service that handles many requests.",
+      "why": "Teams can run their chosen model behind a service that handles many requests.",
+      "how": "The server schedules inference requests and manages the model’s attention cache across batches.",
+      "difference": "It concentrates on serving efficiency, including batching and cache management.",
+      "audience": "Infrastructure engineers operating their own inference endpoints.",
+      "limitations": "Supported accelerators and memory requirements vary by model and deployment.",
+      "features": [
+        "Batch scheduling",
+        "HTTP serving",
+        "Attention-cache management"
+      ],
+      "capabilities": [
+        "serve llm",
+        "inference api",
+        "build chatbot",
+        "self hosting",
+        "language model server",
+        "batch inference"
+      ],
+      "pricing": "The Apache-2.0 engine is free. The operator supplies and pays for compute.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/vllm-project/vllm",
+      "docs": "https://docs.vllm.ai/en/latest/",
+      "sources": [
+        {
+          "title": "v0.34.0 release notes",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://docs.vllm.ai/en/latest/"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/vllm-project/vllm"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-16",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "v0.34.0",
+      "changes": [
+        "Version 0.34 makes the extensible KV cache the default and retires Model Runner V1."
+      ],
+      "score": 8,
+      "rationale": "Serving changes can improve how efficiently teams use expensive inference hardware.",
+      "mark": "vllm"
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "company": "ggml.org",
+      "category": "Open-Source AI",
+      "summary": "Run quantized language models locally using a lightweight C and C++ inference engine.",
+      "description": "Run quantized language models locally using a lightweight C and C++ inference engine. Developers can experiment with language models on their own machines.",
+      "why": "Developers can experiment with language models on their own machines.",
+      "how": "It loads compatible GGUF model files and performs inference using CPU or supported acceleration backends.",
+      "difference": "Quantized model support makes local inference practical on a range of consumer hardware.",
+      "audience": "Developers building offline assistants and testing local LLMs.",
+      "limitations": "Model size, quantization, and available memory affect quality and speed. Model licenses differ.",
+      "features": [
+        "GGUF support",
+        "CPU and GPU inference",
+        "Local model server"
+      ],
+      "capabilities": [
+        "run llm locally",
+        "local model",
+        "offline chatbot",
+        "quantization",
+        "inference server",
+        "open source llm"
+      ],
+      "pricing": "The MIT-licensed engine is free. Model licenses and hardware costs are separate.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/ggml-org/llama.cpp",
+      "docs": "https://github.com/ggml-org/llama.cpp/tree/master/docs",
+      "sources": [
+        {
+          "title": "v1.0.0 release notes",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://github.com/ggml-org/llama.cpp/tree/master/docs"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-13",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "v1.0.0",
+      "changes": [
+        "Version 1 removes deprecated public APIs and adds support for an FP8 key-value cache."
+      ],
+      "score": 8,
+      "rationale": "Local inference gives developers control over where prompts are processed.",
+      "mark": "llama"
+    },
+    {
+      "id": "diffusers",
+      "name": "Diffusers",
+      "company": "Hugging Face",
+      "category": "Image Generation",
+      "summary": "Build image, video, and audio generation pipelines in Python with pretrained diffusion models.",
+      "description": "Build image, video, and audio generation pipelines in Python with pretrained diffusion models. A common library makes it easier to adapt and compare generative pipelines.",
+      "why": "A common library makes it easier to adapt and compare generative pipelines.",
+      "how": "A pipeline combines components such as a text encoder, scheduler, and denoising model.",
+      "difference": "Developers can swap components and work with many model families through a common interface.",
+      "audience": "Python developers creating custom image or video generation workflows.",
+      "limitations": "The library supplies code. Each checkpoint has its own license, memory requirements, and capabilities.",
+      "features": [
+        "Text-to-image pipelines",
+        "Video synthesis pipelines",
+        "Swappable schedulers"
+      ],
+      "capabilities": [
+        "generate images",
+        "image generation",
+        "text to image",
+        "video generation",
+        "generate video",
+        "machine learning"
+      ],
+      "pricing": "The Apache-2.0 library is free. Models, hosting, and compute are separate.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/huggingface/diffusers",
+      "docs": "https://huggingface.co/docs/diffusers",
+      "sources": [
+        {
+          "title": "v0.43.0 release notes",
+          "url": "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://huggingface.co/docs/diffusers"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/huggingface/diffusers"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-12",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "v0.43.0",
+      "changes": [
+        "Version 0.43 adds modular integrations for image editing, audiovisual generation, and animation."
+      ],
+      "score": 8,
+      "rationale": "Reusable pipelines make it easier to test new generative models in existing applications.",
+      "mark": "huggingface"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "company": "Ollama",
+      "category": "Developer Tools",
+      "summary": "Download and run supported language models on your computer through a CLI or local API.",
+      "description": "Download and run supported language models on your computer through a CLI or local API. It simplifies getting from a model name to a running local chat endpoint.",
+      "why": "It simplifies getting from a model name to a running local chat endpoint.",
+      "how": "The runtime manages model files and serves inference requests from the terminal or an application.",
+      "difference": "An integrated model library and local API reduce the setup required to try a model.",
+      "audience": "Developers prototyping private chatbots and students exploring local models.",
+      "limitations": "A model must fit the device. Some model and hardware combinations are unsupported.",
+      "features": [
+        "Model downloads",
+        "Local inference",
+        "HTTP chat API"
+      ],
+      "capabilities": [
+        "run llm locally",
+        "local model",
+        "build chatbot",
+        "offline chatbot",
+        "open source llm",
+        "model server"
+      ],
+      "pricing": "The MIT-licensed local runtime is free. Cloud models and infrastructure have separate terms.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/ollama/ollama",
+      "docs": "https://docs.ollama.com/",
+      "sources": [
+        {
+          "title": "v0.40.17 release notes",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17"
+        },
+        {
+          "title": "Local API reference",
+          "url": "https://docs.ollama.com/api/introduction"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://docs.ollama.com/"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/ollama/ollama"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-10",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "v0.40.17",
+      "changes": [
+        "Version 0.40.17 adds Inkling 2 Mini support on Apple silicon."
+      ],
+      "score": 8,
+      "rationale": "Its simple local endpoint shortens the path from a model download to a working application.",
+      "mark": "ollama"
+    },
+    {
+      "id": "gradio",
+      "name": "Gradio",
+      "company": "Hugging Face",
+      "category": "Frameworks",
+      "summary": "Turn a Python function into a browser-based demo with inputs, outputs, and chat components.",
+      "description": "Turn a Python function into a browser-based demo with inputs, outputs, and chat components. A research team can share a model with someone who does not write Python.",
+      "why": "A research team can share a model with someone who does not write Python.",
+      "how": "Connect a function to components in an Interface, Blocks layout, or ChatInterface.",
+      "difference": "A Python author can build an interactive model demo without building a separate frontend.",
+      "audience": "Researchers, students, and developers prototyping interactive ML applications.",
+      "limitations": "An accessible demo still needs a running backend. Hosting and inference are separate.",
+      "features": [
+        "Python UI components",
+        "Chat interfaces",
+        "Callable app endpoints"
+      ],
+      "capabilities": [
+        "build chatbot",
+        "python demo",
+        "machine learning interface",
+        "research demo",
+        "prototype app"
+      ],
+      "pricing": "The Apache-2.0 library is free. Hosted compute can incur charges.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/gradio-app/gradio",
+      "docs": "https://gradio.app/docs",
+      "sources": [
+        {
+          "title": "6.32.0 release notes",
+          "url": "https://github.com/gradio-app/gradio/releases/tag/gradio%406.32.0"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://gradio.app/docs"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/gradio-app/gradio"
+        }
+      ],
+      "announced": null,
+      "released": "2026-11-12",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "6.32.0",
+      "changes": [
+        "Version 6.32 adds Pillow 13 support and preserves 32-bit integer PNG output."
+      ],
+      "score": 7,
+      "rationale": "A small Python interface can make research results testable by non-programmers.",
+      "mark": "gradio"
+    },
+    {
+      "id": "claude-fable",
+      "name": "Claude Fable 5.2",
+      "company": "Anthropic",
+      "category": "AI Models",
+      "summary": "A hosted reasoning model for complex coding, visual analysis, and technical work.",
+      "description": "A hosted reasoning model for complex coding, visual analysis, and technical work. It targets problems that require several reasoning steps or working across a large technical project.",
+      "why": "It targets problems that require several reasoning steps or working across a large technical project.",
+      "how": "An application sends instructions and context to the Claude API and receives generated output.",
+      "difference": "Anthropic offers standard and higher-priced fast modes for different latency needs.",
+      "audience": "Teams that need technical reasoning and can evaluate the output against independent tests.",
+      "limitations": "Hosted usage is metered. Generated reasoning and code require independent review.",
+      "features": [
+        "Technical reasoning",
+        "Vision",
+        "Coding"
+      ],
+      "capabilities": [
+        "reasoning",
+        "visual analysis",
+        "analyze images",
+        "programming",
+        "write code",
+        "build chatbot"
+      ],
+      "pricing": "Standard API rates at launch were $8 per million input tokens and $40 per million output tokens. Fast mode costs more.",
+      "priceClass": "Paid",
+      "free": false,
+      "api": true,
+      "open": false,
+      "website": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "docs": "https://platform.claude.com/docs/en/models/overview",
+      "sources": [
+        {
+          "title": "Model announcement and launch pricing",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://platform.claude.com/docs/en/models/overview"
+        }
+      ],
+      "announced": "2026-11-09",
+      "released": "2026-11-09",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "5.2",
+      "changes": [
+        "Anthropic reports faster output generation than Fable 5.1 and lower standard token prices."
+      ],
+      "score": 8,
+      "rationale": "The combination of coding, vision, and reasoning is useful for reviewing complex technical work.",
+      "mark": "anthropic"
+    },
+    {
+      "id": "claude-haiku",
+      "name": "Claude Haiku 5.5",
+      "company": "Anthropic",
+      "category": "AI Models",
+      "summary": "A compact hosted language model for repetitive, latency-sensitive language tasks.",
+      "description": "A compact hosted language model for repetitive, latency-sensitive language tasks. It targets high-volume tasks such as sorting requests, writing summaries, and answering support questions.",
+      "why": "It targets high-volume tasks such as sorting requests, writing summaries, and answering support questions.",
+      "how": "Send a prompt to the Claude API and parse the model’s response in an application.",
+      "difference": "The pricing schedule distinguishes prompts at or below 100,000 tokens from longer prompts.",
+      "audience": "Developers operating high-volume classification, summarization, or chat systems.",
+      "limitations": "Longer prompts have a different rate. Outputs can contain errors and should be evaluated for the intended task.",
+      "features": [
+        "Summarization",
+        "Classification",
+        "Low-latency responses"
+      ],
+      "capabilities": [
+        "summarize documents",
+        "text classification",
+        "build chatbot",
+        "customer support",
+        "summarization"
+      ],
+      "pricing": "For prompts up to 100k tokens, launch API rates were $0.10 per million input tokens and $0.50 per million output tokens.",
+      "priceClass": "Paid",
+      "free": false,
+      "api": true,
+      "open": false,
+      "website": "https://www.anthropic.com/claude-haiku-5-5",
+      "docs": "https://platform.claude.com/docs/en/models/overview",
+      "sources": [
+        {
+          "title": "Model announcement and pricing table",
+          "url": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://platform.claude.com/docs/en/models/overview"
+        }
+      ],
+      "announced": "2026-10-07",
+      "released": "2026-10-07",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "5.5",
+      "changes": [
+        "Haiku 5.5 lowers input and output token prices compared with Haiku 4.5."
+      ],
+      "score": 7,
+      "rationale": "Per-token pricing and faster responses make it worth evaluating for repeated short language tasks.",
+      "mark": "anthropic"
+    },
+    {
+      "id": "gpt-oss",
+      "name": "gpt-oss-20b",
+      "company": "OpenAI",
+      "category": "Open-Source AI",
+      "summary": "An open-weight reasoning model designed to run locally on a machine with around 16 GB of memory.",
+      "description": "An open-weight reasoning model designed to run locally on a machine with around 16 GB of memory. Developers can evaluate and adapt a reasoning model while controlling where inference runs.",
+      "why": "Developers can evaluate and adapt a reasoning model while controlling where inference runs.",
+      "how": "A compatible runtime loads the model weights and handles messages in the Harmony format.",
+      "difference": "The smaller gpt-oss model fits on substantially less memory than the 120b variant.",
+      "audience": "Developers building local assistants and researchers studying open-weight reasoning.",
+      "limitations": "A working local setup needs compatible hardware and software. The model can generate incorrect answers.",
+      "features": [
+        "Downloadable weights",
+        "Adjustable reasoning effort",
+        "Tool calling"
+      ],
+      "capabilities": [
+        "local llm",
+        "run llm locally",
+        "open source llm",
+        "build chatbot",
+        "reasoning model",
+        "offline chatbot"
+      ],
+      "pricing": "Weights are freely downloadable under Apache-2.0. Local compute or third-party hosting is separate.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://openai.com/index/introducing-gpt-oss/",
+      "docs": "https://huggingface.co/openai/gpt-oss-20b",
+      "sources": [
+        {
+          "title": "Open-weight model announcement",
+          "url": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "title": "Reference implementations",
+          "url": "https://github.com/openai/gpt-oss"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://huggingface.co/openai/gpt-oss-20b"
+        }
+      ],
+      "announced": "2025-08-05",
+      "released": "2025-08-05",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "20b",
+      "changes": [],
+      "score": 9,
+      "rationale": "The model makes a reasoning-capable local assistant feasible on relatively modest hardware.",
+      "mark": "openai"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "company": "OpenAI",
+      "category": "Audio and Speech",
+      "summary": "Transcribe recorded speech into text or translate supported speech into English.",
+      "description": "Transcribe recorded speech into text or translate supported speech into English. It helps people search, caption, and review recordings in many languages.",
+      "why": "It helps people search, caption, and review recordings in many languages.",
+      "how": "An encoder-decoder model reads short windows of audio and predicts text tokens.",
+      "difference": "Its published model weights and reference code can run on your own device.",
+      "audience": "People building transcription tools or preparing searchable audio archives.",
+      "limitations": "Accuracy varies by language and background noise. Check the transcript against the recording.",
+      "features": [
+        "Multilingual transcription",
+        "Speech translation",
+        "Local Python inference"
+      ],
+      "capabilities": [
+        "speech to text",
+        "transcribe audio",
+        "caption recordings",
+        "translate speech",
+        "audio transcription"
+      ],
+      "pricing": "MIT-licensed code and weights are free to run locally. Hosted transcription is separately priced.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/openai/whisper",
+      "docs": "https://github.com/openai/whisper/blob/main/model-card.md",
+      "sources": [
+        {
+          "title": "20250625 release notes",
+          "url": "https://github.com/openai/whisper/releases/tag/v20250625"
+        },
+        {
+          "title": "Original announcement",
+          "url": "https://openai.com/index/whisper/"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://github.com/openai/whisper/blob/main/model-card.md"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/openai/whisper"
+        }
+      ],
+      "announced": "2022-09-21",
+      "released": "2025-06-26",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "20250625",
+      "changes": [],
+      "score": 8,
+      "rationale": "Giving teams access to both code and weights broadens access to local transcription.",
+      "mark": "openai"
+    },
+    {
+      "id": "wan",
+      "name": "Wan2.1 T2V",
+      "company": "Wan Team",
+      "category": "Video Generation",
+      "summary": "Generate a short video clip from a text prompt with downloadable model weights.",
+      "description": "Generate a short video clip from a text prompt with downloadable model weights. Creators can experiment with video synthesis without relying on a hosted video service.",
+      "why": "Creators can experiment with video synthesis without relying on a hosted video service.",
+      "how": "A text-conditioned video diffusion model produces a sequence of frames from a written prompt.",
+      "difference": "The 1.3B checkpoint is the smaller text-to-video model in the Wan2.1 family.",
+      "audience": "Creators and developers experimenting with local video generation.",
+      "limitations": "The team reports about 8.19 GB of VRAM for the 1.3B variant. Generation time depends on hardware.",
+      "features": [
+        "Text-to-video generation",
+        "Local inference",
+        "Downloadable checkpoints"
+      ],
+      "capabilities": [
+        "generate video",
+        "video generation",
+        "text to video",
+        "create video",
+        "local video"
+      ],
+      "pricing": "The model weights use Apache-2.0. Running them requires suitable compute.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/Wan-Video/Wan2.1",
+      "docs": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+      "sources": [
+        {
+          "title": "Project release timeline",
+          "url": "https://github.com/Wan-Video/Wan2.1"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B"
+        }
+      ],
+      "announced": "2025-02-25",
+      "released": "2025-02-25",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "2.1 · 1.3B",
+      "changes": [],
+      "score": 7,
+      "rationale": "A relatively small checkpoint lets more creators evaluate video generation locally.",
+      "mark": "wan"
+    },
+    {
+      "id": "flux-schnell",
+      "name": "FLUX.1 [schnell]",
+      "company": "Black Forest Labs",
+      "category": "Image Generation",
+      "summary": "Turn a text prompt into an image with a downloadable model that uses a few inference steps.",
+      "description": "Turn a text prompt into an image with a downloadable model that uses a few inference steps. Designers can iterate on image concepts while controlling their own inference environment.",
+      "why": "Designers can iterate on image concepts while controlling their own inference environment.",
+      "how": "A prompt conditions a distilled flow model that generates an image in one to four steps.",
+      "difference": "The schnell release combines few-step inference with Apache-2.0 licensing.",
+      "audience": "Designers prototyping imagery and developers adding text-to-image generation.",
+      "limitations": "Local inference needs sufficient memory. Generated text, anatomy, and precise layouts may need correction.",
+      "features": [
+        "Text-to-image generation",
+        "Few-step inference",
+        "Local model weights"
+      ],
+      "capabilities": [
+        "generate images",
+        "image generation",
+        "text to image",
+        "design",
+        "illustration",
+        "professional images"
+      ],
+      "pricing": "Apache-2.0 weights are free to download. Hosted inference or rented hardware can cost extra.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://blackforestlabs.ai/announcing-black-forest-labs/",
+      "docs": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+      "sources": [
+        {
+          "title": "Launch announcement",
+          "url": "https://blackforestlabs.ai/announcing-black-forest-labs/"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell"
+        }
+      ],
+      "announced": "2024-08-01",
+      "released": "2024-08-01",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "FLUX.1",
+      "changes": [],
+      "score": 8,
+      "rationale": "Few-step inference makes it practical to try more image concepts in a fixed compute budget.",
+      "mark": "flux"
+    },
+    {
+      "id": "trocr",
+      "name": "TrOCR Handwritten",
+      "company": "Microsoft",
+      "category": "Machine Learning",
+      "summary": "Convert a cropped image of a handwritten line into editable text.",
+      "description": "Convert a cropped image of a handwritten line into editable text. It makes handwritten material searchable and easier to transcribe into documents.",
+      "why": "It makes handwritten material searchable and easier to transcribe into documents.",
+      "how": "A vision encoder reads the image and a text decoder predicts the characters.",
+      "difference": "This checkpoint is fine-tuned for handwritten text lines using the IAM dataset.",
+      "audience": "Researchers and developers processing handwriting one line at a time.",
+      "limitations": "Segment full pages into separate text lines first. Unusual handwriting and poor scans need manual review.",
+      "features": [
+        "Handwriting recognition",
+        "Image-to-text inference",
+        "Transformers integration"
+      ],
+      "capabilities": [
+        "handwritten notes",
+        "handwriting",
+        "ocr",
+        "convert notes to editable text",
+        "document transcription",
+        "recognize handwriting"
+      ],
+      "pricing": "The checkpoint has an MIT license and is available for local use. Hosted compute can cost extra.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://github.com/microsoft/unilm/tree/master/trocr",
+      "docs": "https://huggingface.co/docs/transformers/model_doc/trocr",
+      "sources": [
+        {
+          "title": "Microsoft model card and license",
+          "url": "https://huggingface.co/microsoft/trocr-base-handwritten"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://huggingface.co/docs/transformers/model_doc/trocr"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/microsoft/unilm/tree/master/trocr"
+        }
+      ],
+      "announced": null,
+      "released": null,
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "base-handwritten",
+      "changes": [],
+      "score": 7,
+      "rationale": "A task-specific checkpoint gives document teams a practical starting point for handwriting recognition.",
+      "mark": "microsoft"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "company": "Aider",
+      "category": "Coding Agents",
+      "summary": "Pair-program in a terminal with an AI assistant that can edit files in a Git repository.",
+      "description": "Pair-program in a terminal with an AI assistant that can edit files in a Git repository. Developers can connect their preferred model to a version-controlled editing workflow.",
+      "why": "Developers can connect their preferred model to a version-controlled editing workflow.",
+      "how": "Choose a model and files, describe a change, and review the resulting diff in Git.",
+      "difference": "The client supports multiple model providers and can work with a local model.",
+      "audience": "Developers who want model choice and Git-tracked changes.",
+      "limitations": "Model quality varies. A remote provider can charge for usage and local inference needs hardware.",
+      "features": [
+        "Terminal pair programming",
+        "Git integration",
+        "Multiple model providers"
+      ],
+      "capabilities": [
+        "coding assistant",
+        "write code",
+        "code review",
+        "git",
+        "local coding assistant",
+        "programming"
+      ],
+      "pricing": "The Apache-2.0 client is free. Hosted model usage is billed by the selected provider.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": null,
+      "open": true,
+      "website": "https://github.com/Aider-AI/aider",
+      "docs": "https://aider.chat/docs/",
+      "sources": [
+        {
+          "title": "v0.86.0 release notes",
+          "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://aider.chat/docs/"
+        },
+        {
+          "title": "Project website",
+          "url": "https://github.com/Aider-AI/aider"
+        }
+      ],
+      "announced": null,
+      "released": "2025-08-09",
+      "status": "Released",
+      "expected": null,
+      "verified": "2026-11-21",
+      "version": "v0.86.0",
+      "changes": [
+        "Version 0.86 adds support for GPT-5 models and updates the /undo command output."
+      ],
+      "score": 7,
+      "rationale": "Model choice and Git history give developers control over cost and code changes.",
+      "mark": "aider"
+    },
+    {
+      "id": "python-316",
+      "name": "Python 3.16",
+      "company": "Python Software Foundation",
+      "category": "Developer Tools",
+      "summary": "The next Python feature release is in alpha testing, with a published schedule for the stable release.",
+      "description": "The next Python feature release is in alpha testing, with a published schedule for the stable release. An early build gives maintainers time to test their packages before the new interpreter becomes stable.",
+      "why": "An early build gives maintainers time to test their packages before the new interpreter becomes stable.",
+      "how": "Install an isolated prerelease interpreter and run an existing project’s test suite against it.",
+      "difference": "The official schedule distinguishes completed milestones from future targets.",
+      "audience": "Library maintainers and teams testing compatibility with the upcoming Python release.",
+      "limitations": "Alpha behavior can change. The expected final date is a schedule target, not a release guarantee.",
+      "features": [
+        "Alpha builds",
+        "Public development schedule",
+        "Compatibility testing"
+      ],
+      "capabilities": [
+        "python",
+        "prerelease",
+        "interpreter",
+        "compatibility testing"
+      ],
+      "pricing": "Python is available under the PSF license without a software fee.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://peps.python.org/pep-0826/",
+      "docs": "https://docs.python.org/3.16/whatsnew/3.16.html",
+      "sources": [
+        {
+          "title": "PEP 826 release schedule",
+          "url": "https://peps.python.org/pep-0826/"
+        },
+        {
+          "title": "Python license",
+          "url": "https://docs.python.org/3/license.html"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://docs.python.org/3.16/whatsnew/3.16.html"
+        }
+      ],
+      "announced": "2026-02-23",
+      "released": null,
+      "status": "Announced",
+      "expected": "2027-10-05",
+      "verified": "2026-11-21",
+      "version": "3.16.0a2",
+      "changes": [
+        "Alpha 2 was released on November 10, 2026. The schedule targets the final release for October 5, 2027."
+      ],
+      "score": 7,
+      "rationale": "Early compatibility testing makes issues easier to resolve before a stable interpreter upgrade.",
+      "mark": "python"
+    },
+    {
+      "id": "node-27",
+      "name": "Node.js 27",
+      "company": "Node.js",
+      "category": "Developer Tools",
+      "summary": "The next major Node.js runtime is available in alpha for compatibility testing.",
+      "description": "The next major Node.js runtime is available in alpha for compatibility testing. Package authors can find breaking changes before the release line moves to Current.",
+      "why": "Package authors can find breaking changes before the release line moves to Current.",
+      "how": "Run existing server-side JavaScript applications and tests on an isolated alpha build.",
+      "difference": "Version 27 is the first line in the project’s annual release cycle with a six-month alpha phase.",
+      "audience": "JavaScript maintainers and platform teams preparing for the next runtime release.",
+      "limitations": "Alpha APIs and binary interfaces can change. The schedule is a target for the stable release.",
+      "features": [
+        "Alpha builds",
+        "JavaScript runtime",
+        "Annual release cycle"
+      ],
+      "capabilities": [
+        "javascript",
+        "node",
+        "prerelease",
+        "compatibility testing",
+        "server runtime"
+      ],
+      "pricing": "The runtime is available to download without a software fee. Infrastructure costs are separate.",
+      "priceClass": "Completely Free",
+      "free": true,
+      "api": true,
+      "open": true,
+      "website": "https://nodejs.org/en/about/previous-releases",
+      "docs": "https://nodejs.org/api/",
+      "sources": [
+        {
+          "title": "Release working group schedule",
+          "url": "https://github.com/nodejs/Release"
+        },
+        {
+          "title": "First alpha release",
+          "url": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0"
+        },
+        {
+          "title": "Runtime license",
+          "url": "https://github.com/nodejs/node/blob/main/LICENSE"
+        },
+        {
+          "title": "Official documentation",
+          "url": "https://nodejs.org/api/"
+        },
+        {
+          "title": "Project website",
+          "url": "https://nodejs.org/en/about/previous-releases"
+        }
+      ],
+      "announced": "2026-10-29",
+      "released": null,
+      "status": "Announced",
+      "expected": "2027-04-22",
+      "verified": "2026-11-21",
+      "version": "27.0.0-alpha.0.1.1",
+      "changes": [
+        "Node.js 27 moves to an annual major release cycle, starting with an alpha phase before Current and LTS."
+      ],
+      "score": 7,
+      "rationale": "A longer alpha phase gives package authors more time to find compatibility issues.",
+      "mark": "node"
+    }
+  ],
+  "news": [
+    {
+      "id": "transformers-release-note",
+      "title": "Transformers adds support for Inkling 2 Mini",
+      "summary": "Version 5.24 adds a model that reads text and images and responds with text.",
+      "date": "2026-11-21",
+      "publisher": "Hugging Face",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+      "category": "Machine Learning",
+      "why": "Developers can load the new architecture in an existing Transformers workflow.",
+      "type": "Original announcement"
+    },
+    {
+      "id": "codex-release-note",
+      "title": "Codex CLI brings file previews into its terminal workspace",
+      "summary": "Version 0.171.0 enables the workspace view by default and adds configurable undo and redo shortcuts.",
+      "date": "2026-11-20",
+      "publisher": "OpenAI",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "category": "Coding Agents",
+      "why": "Developers can inspect documents and follow the conversation without leaving the terminal.",
+      "type": "Original announcement"
+    },
+    {
+      "id": "comfyui-release-note",
+      "title": "ComfyUI adds reframe and upscale nodes",
+      "summary": "The 0.46 release adds LTX partner nodes, a MiniMax H3 image node, and refreshed workflow templates.",
+      "date": "2026-11-18",
+      "publisher": "Comfy Org",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0",
+      "category": "Image Generation",
+      "why": "Creators can place these operations in a repeatable graph. Partner-node usage has separate pricing.",
+      "type": "Original announcement"
+    },
+    {
+      "id": "vllm-release-note",
+      "title": "vLLM changes how it allocates inference memory",
+      "summary": "Version 0.34 sizes the default key-value cache using memory available after model warmup.",
+      "date": "2026-11-16",
+      "publisher": "vLLM Project",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "category": "APIs and Infrastructure",
+      "why": "Operators upgrading a server can revisit their manual memory settings.",
+      "type": "Original announcement"
+    },
+    {
+      "id": "python-316-release-note",
+      "title": "Python 3.16 reaches its second alpha",
+      "summary": "The release team lists alpha 2 as completed and the first beta as a future milestone.",
+      "date": "2026-11-10",
+      "publisher": "Python Software Foundation",
+      "url": "https://peps.python.org/pep-0826/",
+      "category": "Developer Tools",
+      "why": "Package maintainers can begin compatibility testing before the feature set is frozen.",
+      "type": "Original announcement"
+    },
+    {
+      "id": "claude-fable-release-note",
+      "title": "Anthropic introduces Claude Fable 5.2",
+      "summary": "Fable 5.2 updates Anthropic’s technical reasoning model and adds an optional fast mode.",
+      "date": "2026-11-09",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "category": "AI Models",
+      "why": "Teams can weigh model quality and latency against the published standard and fast-mode prices.",
+      "type": "Original announcement"
+    }
+  ]
+}
