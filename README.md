@@ -1,4 +1,4 @@
-# SEEKR
+# SEEKR AI
 
 **Seek. Discover. Build.**
 
