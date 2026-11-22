@@ -11,17 +11,18 @@
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "@libsql/client": "^0.18.0",
+    "fast-xml-parser": "^5.5.0",
     "lucide-react": "^0.563.0",
-    "fast-xml-parser": "^5.5.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
-    "esbuild": "^0.27.0",
-    "typescript": "^5.9.0",
     "drizzle-kit": "^0.31.0",
-    "drizzle-orm": "^0.45.0"
+    "drizzle-orm": "^0.45.0",
+    "esbuild": "^0.27.0",
+    "typescript": "^5.9.0"
   }
 }
