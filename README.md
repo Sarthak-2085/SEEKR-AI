@@ -2,6 +2,8 @@
 
 **Seek. Discover. Build.**
 
+Live : https://seekr-ai-tau.vercel.app/
+
 SEEKR helps you discover new technologies and choose tools for a project. You can search by name, describe what you want to build, or compare tools side by side. Each technology page links to its sources so you can check the details yourself.
 
 ## What you can do
